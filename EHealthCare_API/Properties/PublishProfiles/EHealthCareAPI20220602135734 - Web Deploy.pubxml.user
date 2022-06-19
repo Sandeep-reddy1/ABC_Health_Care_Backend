@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAx8T9zISX8U2jfsciJdSivAAAAAACAAAAAAADZgAAwAAAABAAAADEYMUfsKQT+Disorv6jXnRAAAAAASAAACgAAAAEAAAAOEQcR5iQPddABl7FRN/ncKAAAAA2wz1wfJwV6aF8aIihCGT5m+EZ73pbRn39Z+Ipu7dM8A1nxbDOd0diekA0Q19lp+oy7PIz7Ol4Ez5RYWENnvnVMqI/h8smlK3iEJF/o0txgUpNU7VBY5n9nX40QnXrFhB/Y9Eh1E21dbubBVCzKP6n07G85rHA02bhRh1hgQY/pAUAAAApRA+wWw5GDQRFFSkc6ZEecE+A70=</EncryptedPassword>
+    <History>True|2022-06-02T08:41:14.5532424Z;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <EFMigrations Include="EHealthCare_API.Data.MedicineStoreDbContext">
+      <Value>Data Source=tcp:ehealthcare-apidbserver.database.windows.net,1433%3bInitial Catalog=EHealthCare_API_db%3bUser Id=Akshatha%40ehealthcare-apidbserver%3bPassword=admin%401234</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
